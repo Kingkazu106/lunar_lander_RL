@@ -34,9 +34,16 @@ cd lunar_lander_RL
 ### 2. 環境の構築
 このプロジェクトには `environment.yml` が付属しています。
 
+【linuxの場合】
 ```bash
 conda activate
 conda env create -f environment.yml
+conda activate lunar_lander_env
+```
+【windowsの場合】
+```bash
+conda activate
+conda env create -f environment_win.yml
 conda activate lunar_lander_env
 ```
 
