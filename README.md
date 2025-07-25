@@ -29,7 +29,7 @@
 
 ```bash
 git clone https://github.com/Kingkazu106/lunar_lander_RL.git
-cd lunar_lander
+cd lunar_lander_RL
 ```
 ### 2. 環境の構築
 このプロジェクトには `environment.yml` が付属しています。
