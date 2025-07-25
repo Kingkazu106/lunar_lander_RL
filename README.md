@@ -28,7 +28,7 @@
 ### 1. リポジトリのクローン
 
 ```bash
-git clone https://github.com/Kingkazu106/lunar_lander.git
+git clone https://github.com/Kingkazu106/lunar_lander_RL.git
 cd lunar_lander
 ```
 ### 2. 環境の構築
