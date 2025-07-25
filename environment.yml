@@ -3,7 +3,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - _libgcc_mutex=0.1=main
+  - _libgcc_mutex=0.1=mainS
   - _openmp_mutex=5.1=1_gnu
   - blas=1.0=mkl
   - bottleneck=1.4.2=py311hf4808d0_0

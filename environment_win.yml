@@ -1,0 +1,36 @@
+name: lunar_lander_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - gymnasium=1.0.0
+  - stable-baselines3=2.6.0
+  - pytorch=2.6.0=cpu_mkl_py311* # Windows向けにCPU + MKL版を指定
+  - mkl
+  - pandas
+  - matplotlib
+  - pillow
+  - numexpr
+  - scipy # numexprの依存関係で必要になることが多い
+  - pip
+  - pip:
+    - absl-py
+    - box2d-py
+    - decorator
+    - grpcio
+    - imageio
+    - imageio-ffmpeg
+    - markdown
+    - moviepy
+    - numpy
+    - opencv-python
+    - proglog
+    - protobuf
+    - pygame
+    - python-dotenv
+    - swig
+    - tensorboard
+    - tensorboard-data-server
+    - tqdm
+    - werkzeug

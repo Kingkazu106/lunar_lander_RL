@@ -35,6 +35,7 @@ cd lunar_lander_RL
 このプロジェクトには `environment.yml` が付属しています。
 
 ```bash
+conda activate
 conda env create -f environment.yml
 conda activate lunar_lander_env
 ```
